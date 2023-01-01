@@ -1,5 +1,5 @@
 # fastapi-contenerized-starter
-Shell script that allows you to launch fastapi project in contenerized enviroment.
+Shell script that allows you to launch fastapi project in Docker enviroment.
 To launch script u need to use this command:
 ```
 chmod +x *.sh && ./docker.sh
