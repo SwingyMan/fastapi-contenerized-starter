@@ -1,0 +1,14 @@
+version: "3"
+services:
+  fastapi:
+    build: .
+    ports:
+      - "8000:8000"
+  database:
+    image: postgres
+    ports:
+      - "5432"
+    environment:
+      POSTGRES_PASSWORD: example123
+      POSTGRES_USER: postgres
+      POSTGRES_DB: example
